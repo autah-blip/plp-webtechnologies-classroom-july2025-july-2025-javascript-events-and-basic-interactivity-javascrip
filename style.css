@@ -1,0 +1,60 @@
+/* ====== Basic Page Styles ====== */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+/* ====== Buttons ====== */
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ====== Sections ====== */
+.counter, .faq, form {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+}
+
+.dark-mode .counter,
+.dark-mode .faq,
+.dark-mode form {
+  background-color: #333;
+  border-color: #555;
+}
+
+/* ====== Form ====== */
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#formMsg {
+  margin-top: 10px;
+  font-weight: bold;
+}
