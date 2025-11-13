@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 6 – JavaScript Event Handling Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Interactive Web Page</h1>
+
+  <!-- 🎨 Light/Dark Mode Toggle -->
+  <button id="themeToggle">Switch Theme</button>
+
+  <!-- 🔢 Counter Game -->
+  <div class="counter">
+    <h2>Counter: <span id="count">0</span></h2>
+    <button id="incrementBtn">Increment</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <!-- ❓ Collapsible FAQ Section -->
+  <div class="faq">
+    <h3 id="faqQuestion">What is JavaScript? ▼</h3>
+    <p id="faqAnswer" style="display:none;">JavaScript makes web pages dynamic and interactive by responding to user actions.</p>
+  </div>
+
+  <!-- 🧾 Form Validation Section -->
+  <form id="userForm">
+    <h2>Register</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button type="submit">Submit</button>
+    <p id="formMsg"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
